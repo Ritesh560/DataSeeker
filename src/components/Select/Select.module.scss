@@ -10,6 +10,8 @@
     padding: 7px 10px;
     font-weight: 500;
     display: flex;
+    height: 40px;
+    align-items: center;
     p {
       flex-grow: 1;
       text-overflow: ellipsis;
@@ -50,7 +52,7 @@
   .options {
     position: absolute;
     z-index: 100;
-    top: 80%;
+    top: 110%;
     left: 0;
     max-height: 200px;
     overflow-y: auto;
