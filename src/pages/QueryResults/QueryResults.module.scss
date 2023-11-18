@@ -3,9 +3,20 @@
 .query_result_container {
   margin: 20px;
 
+  .backButton {
+    color: blue;
+    font-weight: 600;
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 
     th,
     td {

@@ -29,7 +29,9 @@ const QueryInput = () => {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Enter your SQL query here..."
           />
-          <button onClick={handleRunCustomQuery}>Run Query</button>
+          <button onClick={handleRunCustomQuery} disabled={query.length === 0}>
+            Run Query
+          </button>
         </div>
       </div>
 
