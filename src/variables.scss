@@ -1,0 +1,12 @@
+// Colors
+$custom-error-color: #e74c3c;
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+// Flex utility
+@mixin flex($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
