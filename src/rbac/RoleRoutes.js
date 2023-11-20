@@ -8,12 +8,16 @@ import NavBar from '../pages/NavBar/NavBar';
 const RoleRoutes = () => {
   return (
     <div className={styles.routePageContainer}>
-      <NavBar />
-      <Routes>
-        {ROLE_ROUTES['routes'].map((route) => (
-          <Route key={route.name} path={route.link} exact element={route.component} />
-        ))}
-      </Routes>
+      <div className={styles.navbar}>
+        <NavBar />
+      </div>
+      <div className={styles.page}>
+        <Routes>
+          {ROLE_ROUTES['routes'].map((route) => (
+            <Route key={route.name} path={route.link} exact element={route.component} />
+          ))}
+        </Routes>
+      </div>
     </div>
   );
 };

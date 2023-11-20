@@ -1,6 +1,25 @@
 .routePageContainer {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
+
+  .navbar {
+    height: max-content;
+  }
+  .page {
+    flex: 1;
+    height: calc(100vh - 73px);
+  }
+}
+
+@media (max-width: 800px) {
+  .page {
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }

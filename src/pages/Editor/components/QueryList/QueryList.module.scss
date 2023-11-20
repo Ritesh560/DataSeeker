@@ -1,14 +1,14 @@
 .queryWrapper {
-  height: 50%;
+  height: 49%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 
   .queries {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     overflow: hidden;
     overflow-y: scroll;
 

@@ -2,10 +2,10 @@
 
 .queryResultContainer {
   .queryResult {
-    height: 90vh;
-    overflow: hidden;
-    overflow-y: scroll;
+    height: calc(100vh - 83px);
+    overflow: auto;
     padding-top: 20px;
+
     .backButton {
       color: blue;
       font-weight: 600;
@@ -37,13 +37,23 @@
   }
 
   .placeholder {
-    width: 100%;
-    height: 100%;
-
+    margin-top: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border: 1px solid red;
+    font-size: 2rem;
+    font-weight: 600;
+    color: gray;
+  }
+}
+
+@media (max-width: 800px) {
+  .queryResultContainer {
+    .placeholder {
+      height: 200px;
+      margin: 0;
+      font-size: 1.3rem;
+    }
   }
 }
