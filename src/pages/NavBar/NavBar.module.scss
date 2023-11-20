@@ -14,21 +14,96 @@
     cursor: pointer;
   }
 
-  .navBtns {
+  .menu {
     width: 50%;
-    display: flex;
-    align-items: center;
-    gap: 10%;
+    .navBtns {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10%;
 
-    .navLink {
-      font-size: 20px;
-      font-weight: 600;
-      cursor: pointer;
-      text-decoration: none;
-      color: white;
+      .navLink {
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
 
-      &:hover {
-        text-decoration: underline;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .hamburgerIcon {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .navBarContainer {
+    .menu {
+      width: max-content;
+      .navBtns {
+        display: none;
+      }
+      .hamburgerIcon {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20px;
+        width: 20px;
+
+        .bar {
+          background-color: white;
+          height: 3px;
+          width: 20px;
+          transition: 0.3s ease;
+        }
+      }
+    }
+    .menuOpen {
+      .navBtns {
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+
+        width: 70%;
+        min-width: 300px;
+        height: 300px;
+        background-color: #111827e6;
+        padding: 20px 0;
+        border-radius: 10px;
+
+        .navLink {
+          font-size: 1.8rem;
+        }
+      }
+
+      .hamburgerIcon {
+        .bar {
+          width: 25px;
+          &:first-child {
+            transform: rotate(45deg);
+            transform-origin: top left;
+          }
+
+          &:nth-child(2) {
+            opacity: 0;
+          }
+
+          &:last-child {
+            transform: rotate(-45deg);
+            transform-origin: bottom left;
+          }
+        }
       }
     }
   }
