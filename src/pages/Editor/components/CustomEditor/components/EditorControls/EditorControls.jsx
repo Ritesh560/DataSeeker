@@ -54,15 +54,15 @@ const EditorControls = () => {
   return (
     <div className={styles.editorControls}>
       <button onClick={() => runQuery()} className={styles.run}>
-        <span className={styles.fa}></span>Run
+        Run
       </button>
 
       <button onClick={() => saveQuery()} className={styles.save}>
-        <span className={styles.fa}></span>Save
+        Save
       </button>
 
       <button onClick={() => clearQuery()} className={styles.clear}>
-        <span className={styles.fa}></span>Clear
+        Clear
       </button>
     </div>
   );

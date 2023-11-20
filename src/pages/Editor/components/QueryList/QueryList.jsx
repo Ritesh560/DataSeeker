@@ -24,14 +24,13 @@ const QueryList = ({ type, heading }) => {
           queryState[type]
             ?.filter((query) => query.toLowerCase().includes(searchQuery.toLowerCase()))
             ?.map((query) => (
-              <div className={styles.query}>
-                <code onClick={() => setQuery(query)}>{query}</code>
+              <div className={styles.query} onClick={() => setQuery(query)}>
+                <code>{query}</code>
               </div>
             ))
         ) : (
           <div className={styles.noQuery}>
-            <span className={styles.fa}></span>
-            <p>No queries found.</p>
+            <p>No query found</p>
           </div>
         )}
       </div>
