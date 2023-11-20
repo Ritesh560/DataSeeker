@@ -6,6 +6,24 @@
     overflow: auto;
     padding-top: 20px;
 
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .exportLink {
+        text-decoration: none;
+        margin-right: 10px;
+        color: black;
+        background-color: rgb(214, 207, 207);
+        padding: 5px 15px;
+        border-radius: 5px;
+
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
     .backButton {
       color: blue;
       font-weight: 600;

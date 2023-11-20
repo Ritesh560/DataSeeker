@@ -9,9 +9,7 @@ const EditorControls = () => {
 
   const runQuery = () => {
     if (query.trim() === '') {
-      alert(
-        'Oops, that was a Null Query. Please type another query, or select from the ones previously available.'
-      );
+      alert('Type a query to run.');
       return;
     }
 

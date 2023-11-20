@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import MainContext from '../../../../MainContext';
 import { CSVLink } from 'react-csv';
 
@@ -11,7 +11,15 @@ const Output = () => {
     <div className={styles.queryResultContainer}>
       {queryState.results?.length ? (
         <div className={styles.queryResult}>
-          <h3>Results</h3>
+          <div className={styles.heading}>
+            <h3>Results</h3>
+            <CSVLink
+              data={queryState.results}
+              filename={'dataOutput.csv'}
+              className={styles.exportLink}>
+              Export
+            </CSVLink>
+          </div>
           <table>
             <thead>
               <tr>
