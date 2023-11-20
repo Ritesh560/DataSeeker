@@ -7,7 +7,6 @@
 
   .content {
     width: 60%;
-    min-width: 400px;
     @include flex(column, center, center);
     gap: 30px;
 
@@ -31,6 +30,36 @@
       cursor: pointer;
       border: none;
       outline: none;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .homeContainer {
+    .content {
+      width: 80%;
+      gap: 20px;
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .homeContainer {
+    .content {
+      width: 90%;
+      gap: 10px;
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
   }
 }
