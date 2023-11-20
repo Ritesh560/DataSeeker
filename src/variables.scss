@@ -2,6 +2,8 @@
 $custom-error-color: #e74c3c;
 $primary-color: #3153dd;
 $secondary-color: #2ecc71;
+$primary-background: rgb(245, 245, 247);
+$navbar-background: rgb(25, 44, 185);
 
 // Flex utility
 @mixin flex($direction: row, $justify: center, $align: center) {

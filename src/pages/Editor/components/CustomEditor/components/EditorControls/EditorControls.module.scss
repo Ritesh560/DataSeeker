@@ -1,0 +1,30 @@
+@import '../../../../../../variables.scss';
+
+.editorControls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  button {
+    width: 100px;
+    height: 40px;
+    @include flex(row, center, center);
+    font-size: 18px;
+    font-weight: 600px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .run {
+    background: $primary-color;
+  }
+  .save {
+    color: $primary-color;
+    border: 2px solid $primary-color;
+  }
+  .clear {
+    background: #ff0000;
+  }
+}

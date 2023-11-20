@@ -1,0 +1,51 @@
+@import '../../../../variables.scss';
+
+.curstomEditor {
+  display: flex;
+  background-color: $primary-background;
+  border-radius: 10px;
+  height: max-content;
+
+  .textAreaContainer {
+    flex: 1;
+    padding: 20px;
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: rgb(107, 104, 104);
+      span {
+        font-weight: 600;
+        color: black;
+      }
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+
+      resize: none;
+
+      display: flex;
+      align-items: center;
+      border: 1px solid #dadce0;
+
+      border-radius: 10px;
+      padding: 10px;
+      gap: 10px;
+      color: #567191;
+      background: white;
+
+      font-weight: 600;
+      font-size: 16px;
+      line-height: normal;
+      color: rgb(41, 9, 222);
+
+      outline: none;
+    }
+  }
+  .editorBtns {
+    width: max-content;
+    padding: 20px;
+  }
+}
