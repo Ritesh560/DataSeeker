@@ -72,7 +72,8 @@
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
 
         width: 70%;
@@ -83,7 +84,7 @@
         border-radius: 10px;
 
         .navLink {
-          font-size: 1.8rem;
+          font-size: 20px;
         }
       }
 
