@@ -27,30 +27,28 @@ package:- https://www.npmjs.com/package/react-csv
 4.  Used variables in styles to reuse of code and stability of styles.
 5.  Vercel is used for fast deployment with it's inbuild ci/cd and caching features for deployment.
 
-## Page load time
+## Page load time and other performance matrix
 Page load time is meaured using Google Lighthouse.  
 
-### Home page load time
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/0b7ab170-9381-438c-987f-8bcbc331577c)  
+### Home page
+![Screenshot 2023-11-21 132703](https://github.com/Ritesh560/DataSeeker/assets/75880449/611b2542-130f-4840-8013-43c5cc622a94)
 
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/2e319967-3683-42e5-97d1-3ffbeaa10852)
+![Screenshot 2023-11-21 132728](https://github.com/Ritesh560/DataSeeker/assets/75880449/dd753aab-b816-4e72-acb0-61646964715d)
 
-### Editor page load time
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/51773f7b-32b4-4c05-a602-6c618af80f77)  
+### Editor page
+![Screenshot 2023-11-21 132835](https://github.com/Ritesh560/DataSeeker/assets/75880449/4092923e-61a6-483a-aa53-bdd97f235f4c)
 
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/7df0403a-6a89-471e-a8aa-73f84e769aba)
+![Screenshot 2023-11-21 132854](https://github.com/Ritesh560/DataSeeker/assets/75880449/bc5ec9c2-8e92-4cb3-b185-955f43132b82)
 
+### Home page (Mobile view)
+![Screenshot 2023-11-21 131610](https://github.com/Ritesh560/DataSeeker/assets/75880449/e45ae4ae-968d-4e9b-99aa-e6dfdb42be68)
 
-### Home page load time (Mobile view)
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/d5da9a71-6d5e-48ab-a97c-80ab5954dbdd)  
+![Screenshot 2023-11-21 131832](https://github.com/Ritesh560/DataSeeker/assets/75880449/8630ef22-6adc-419e-a550-7521e015583f)
 
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/0214fa20-fe4e-49b4-a995-7bdd70e67025)
+### Editor page (Mobile view)
+![Screenshot 2023-11-21 132434](https://github.com/Ritesh560/DataSeeker/assets/75880449/93061e3f-10a5-4912-b739-5b06786fbabd)
 
-### Editor page load time (Mobile view)
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/69ad7589-bae5-45b4-9cbc-5330aece0748)  
-
-![image](https://github.com/Ritesh560/atlan-frontend-task/assets/75880449/bdda7c0a-f3c8-429b-a85a-d5a978321036)
-
+![Screenshot 2023-11-21 132551](https://github.com/Ritesh560/DataSeeker/assets/75880449/f78d2e91-8633-4f53-a8bf-0786c12c830a)
 
 
 
