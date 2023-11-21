@@ -25,6 +25,7 @@ package:- https://www.npmjs.com/package/react-csv
 2.  Responsive design to be able to fit in large extend of the screens.
 3.  Structured code with components to minimise the redundancy of code.
 4.  Used variables in styles to reuse of code and stability of styles.
+5.  Vercel is used for fast deployment with it's inbuild ci/cd and caching features for deployment.
 
 ## Page load time
 Page load time is meaured using Google Lighthouse.  
