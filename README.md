@@ -1,43 +1,22 @@
-# Getting Started with The react Template
+# Atlan Frontend Engineer Task
+Link to the application:- https://atlan-frontend-task-rho.vercel.app/
 
-### `npx create-react-sass-app app_name`
+## Introduction
+This is a webapp that allows users to write SQL queries in editor and analyse the results obtained.  
+It contains different sets of data on which we can run SQL queries.  
+Users can download the output data in CSV file to analyse data.  
 
-Replace the app name with your desired name.
+## Technologies used
+### React:-
+Javascript library that is used to develop single page applications.  
+Documentation:- https://react.dev/learn
 
-## Available Scripts
+### Sass
+Sass is a preprocessor scripting language that is interpreted or compiled into CSS.  
+It extends CSS with features like variables, nesting, and mixins, making stylesheets more maintainable and efficient, and allowing for code reuse and modularity.  
+Documentation:- https://sass-lang.com/documentation/
 
-In the project directory, you can run:
+### react-csv
+React CSV simplify the process of handling CSV data in React applications, providing a straightforward way to import, export, and manipulate CSV files within the context of React components.  
+package:- https://www.npmjs.com/package/react-csv
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### `npm run generate-icon`
-
-This will generate icons for from the svgs which are put inside the src/icons/icons folder. This becomes very handy when there are large no. of svgs and you also want them to be a spcific manner .
-
-**Make sure You add all icons in the folder with this naming format ex:file_name.svg**
